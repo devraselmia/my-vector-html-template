@@ -1,0 +1,27 @@
+:root {
+    --primary: #FF6600;
+    --body: #FAFAFA;
+  }
+  body {
+    background-color: var(--body) !important;
+  }
+
+
+  /* navigation */
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0 !important;
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
+.btn-main {
+  background: var(--primary) !important;
+  width: fit-content;
+}
+.redmark {
+  color: var(--primary);
+}
