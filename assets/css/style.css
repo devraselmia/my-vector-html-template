@@ -1,16 +1,21 @@
 :root {
     --primary: #FF6600;
-    --body: #FAFAFA;
+    --body: #161819;
   }
   body {
     background-color: var(--body) !important;
   }
-
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  p, a, span, a {
+    font-family: 'Open Sans', sans-serif;
+  }
 
   /* navigation */
   .navbar-collapse {
     flex-basis: 100%;
-    flex-grow: 0 !important;
+    flex-grow: 1 !important;
     align-items: center;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
@@ -21,6 +26,7 @@
 .btn-main {
   background: var(--primary) !important;
   width: fit-content;
+  font-family: 'Open Sans', sans-serif;
 }
 .redmark {
   color: var(--primary);
